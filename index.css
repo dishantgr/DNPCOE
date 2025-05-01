@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* body{
+    background-color: grey;
+} */
+.main {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+.icon {
+  color: white;
+  padding-top: 10px;
+}
+#anch1 {
+  margin-left: 20px;
+
+  align-items: center;
+}
+
+#anch2 {
+  margin-left: 20px;
+}
+#anch3 {
+  margin-left: 20px;
+}
+
+h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-top: 10px;
+  text-align: left;
+}
+.navbar {
+  width: 100%;
+  background-color: #fea44a;
+  border: 2px, solid, black;
+}
+.navicon {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  padding-top: 10px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  text-align: center;
+}
+.button:hover {
+  background-color: #fe5d19;
+}
+.button::after {
+  background-color: #fe5d19;
+}
+.marquee {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #fea44a;
+  border: 2px, solid, black;
+  font-size: 20px;
+  padding-top: 5px;
+  text-transform: capitalize;
+}
+.welcome {
+  background-color: black;
+  color: #fea44a;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+fieldset {
+  border: 1px, solid, black;
+}
+legend {
+  color: black;
+  margin-left: 15px;
+  font-weight: bolder;
+  background-color: #fea44a;
+}
+.infomain {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  width: 200px;
+  height: 200px;
+
+  background-color: red;
+  background-image: url("pk\ anna\ pic.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: left;
+ 
+}
+.text {
+  background-color: yellow;
+}
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 14px;
+}
